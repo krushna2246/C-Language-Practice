@@ -6,7 +6,7 @@ int main(){
     if(num==1){
         printf("Yes JAVA");
     }
-    if(num==2){
+    else if(num==2){
         printf("Yes .net");
     }
     else{

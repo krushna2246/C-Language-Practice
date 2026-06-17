@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main()
-// i also want to add 10 % discount if total price is more than 1000
+
 {
     float Quantity,Item_Price,Total_Price;
     printf("enter the Quantity");
