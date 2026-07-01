@@ -11,7 +11,7 @@ int main(){
     }
     printf("Print all elements\n");
     for(i=0;i<=4;i++){
-        printf(" %d",arr2[i]);
+        printf(" %d",arr2[i]); 
     }
     return 0;
 }
