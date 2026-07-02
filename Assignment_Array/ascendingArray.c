@@ -1,9 +1,10 @@
 #include <stdio.h>
 void arrange(int *);
 void swap(int, int, int *);
+void display(int *);
 int main()
 {
-    int arr[4], i;
+    int arr[5], i;
     printf("Enter the elements\n");
     for (i = 0; i <= 4; i++)
     {
@@ -24,7 +25,7 @@ void arrange(int *ptr)
         {
             if (ptr[i] > ptr[j])
             {
-                swap(ptr[i], ptr[j], ptr);
+                swap(i, j, ptr);
             }
         }
     }
